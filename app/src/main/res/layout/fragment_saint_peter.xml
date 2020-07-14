@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".mobile_ui.home.cities.SaintPeterFragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/saint_peter_recycler"
+        tools:listitem="@layout/day_weather_raw"
+        android:paddingVertical="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

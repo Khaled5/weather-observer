@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.easyinc.currentweather.mobile_ui.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="com.easyinc.currentweather.mobile_ui.map.MapFragment"
+        android:label="fragment_map"
+        tools:layout="@layout/fragment_map" />
+    <fragment
+        android:id="@+id/moscowFragment"
+        android:name="com.easyinc.currentweather.mobile_ui.home.cities.MoscowFragment"
+        android:label="fragment_moscow"
+        tools:layout="@layout/fragment_moscow" />
+    <fragment
+        android:id="@+id/saintPeterFragment"
+        android:name="com.easyinc.currentweather.mobile_ui.home.cities.SaintPeterFragment"
+        android:label="fragment_saint_peter"
+        tools:layout="@layout/fragment_saint_peter" />
+</navigation>
